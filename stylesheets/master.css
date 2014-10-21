@@ -10,9 +10,8 @@ body {
 
 
 #wrapper {
-  max-width: 940px;
-  margin: 0 auto;
   padding: 0 5%;
+  border-top: 20px solid #32CD32
 }
 
 
@@ -26,23 +25,23 @@ HEADING
 
 header {
   width: 100%;
-  border: 5px 5px 5px 5px;
   background: lightslategray;
-  border-color: 32CD32;
+  margin: 10px 0 0 0;
+  border-bottom: 20px solid #32CD32;
 }
 
 
 #headerhome {
   float: left;
   margin-right: auto;
-  padding: 20px 450px 20px 100px;
+  padding: 50px 450px 50px 100px;
   }
 
 /*logo centered*/
 .logo {
   height: 200px;
   width: 200px;
-  margin: 50px 0 10px 50px;
+  margin: 20px 0 20px 20px;
 }
 
 
@@ -70,8 +69,7 @@ NAVIGATION
 
 nav {
   text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0 ;
+  padding: 25px 0 0 0;
   background: #32CD32;
 }
 
