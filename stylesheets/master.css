@@ -15,7 +15,6 @@ body {
   border-top: 20px solid #32CD32;
   background-image: url("images/upfeathers.png");
   background-repeat: repeat;
-  background-position: top-center;
 }
 
 
@@ -67,6 +66,26 @@ h2 {
   color: khaki;
 }
 
+
+/****************************************
+SIDEBAR
+*****************************************/
+
+.sidebar {
+  display: block;
+  max-width: 200px;
+  margin: 10px auto 30px;
+  border-radius: 100%;
+}
+
+h3 {
+  font-family: 'Architects Daughter', sans-serif;
+  margin: -5px 0 0;
+  font-size: 0.6em;
+  font-weight: normal;
+  color: darkgreen;
+
+}
 /****************************************
 NAVIGATION
 *****************************************/
@@ -117,6 +136,23 @@ footer {
   height: 20px;
   margin: 0 5px;
 }
+
+
+
+  
+  /****************************************
+  TWO COLUMN LAYOUT
+  *****************************************/
+  
+  #primary {
+    width: 20%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 70%;
+    float: right;
+  }
 
 
 /****************************************
