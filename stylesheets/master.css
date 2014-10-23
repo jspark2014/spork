@@ -6,12 +6,16 @@ body {
  font-family: 'Tangerine', sans-serif;
  font-size: 2em;
  background-color: #C0C0C0;
+ 
 }
 
 
 #wrapper {
   padding: 0 5%;
-  border-top: 20px solid #32CD32
+  border-top: 20px solid #32CD32;
+  background-image: url("images/upfeathers.png");
+  background-repeat: repeat;
+  background-position: top-center;
 }
 
 
