@@ -114,7 +114,6 @@ footer {
   margin: 0 5px;
 }
 
-
 /****************************************
 PAGES FROM HOME
 *****************************************/
@@ -138,3 +137,21 @@ PAGES FROM HOME
   color: white;
 }
   
+/*********************************
+PAGES FROM RESOURCES
+**********************************/
+
+.links {
+
+  color: #32CD32;
+  font-size: .5em;
+  font-family: arial;
+  text-align: center;
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+
+}
