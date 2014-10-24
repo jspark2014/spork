@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
+<html class=''>
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Spork Massage| Rejuvenate</title>
     <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700|Dancing+Script:400,700|Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/master.css">
-  </head>
-  <body>
+    
+</head>
+
+<body>
     <header>
         <a href="home.html" id="pageheading">
           <div id="headerhome">
@@ -24,19 +27,281 @@
           </ul>  
         </nav>
     </header>
-    <div id="wrapper">
+
+        
+
+      
+<head>
+	<meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/ylai0422/pen/DiAap?editors=100" />
+	
+	<script src='http://s.codepen.io/assets/libs/modernizr.js'></script>
+	<style class="cp-pen-styles">
+	
+
+/***********************************************************
+CSS
+***********************************************************/
+
+body{
+  background: #F0F8FF;
+}
+
+#pricing-table {
+	margin: 100px auto;
+	text-align: center;
+	width: 1120px; 
+}
+
+#pricing-table .plan {
+	font: 12px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+	text-shadow: 0 1px rgba(255,255,255,.8);        
+	background: #fff;      
+	border: 1px solid #ddd;
+	color: #333;
+	padding: 20px;
+	width: 180px; /* plan width = 180 + 20 + 20 + 1 + 1 = 222px */      
+	float: left;
+	position: relative;
+}
+
+#pricing-table #most-popular {
+	z-index: 2;
+	top: -13px;
+	border-width: 3px;
+	padding: 30px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+	-webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
+	box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);    
+}
+
+#pricing-table .plan:nth-child(1) {
+	-moz-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;        
+}
+
+#pricing-table .plan:nth-child(5) {
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;        
+}
+
+/* --------------- */	
+
+#pricing-table h3 {
+	font-size: 20px;
+	font-weight: normal;
+	padding: 20px;
+	margin: -20px -20px 50px -20px;
+	background-color: #eee;
+	background-image: -moz-linear-gradient(#fff,#eee);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));    
+	background-image: -webkit-linear-gradient(#fff, #eee);
+	background-image: -o-linear-gradient(#fff, #eee);
+	background-image: -ms-linear-gradient(#fff, #eee);
+	background-image: linear-gradient(#fff, #eee);
+}
+
+#pricing-table #most-popular h3 {
+	background-color: #ddd;
+	background-image: -moz-linear-gradient(#eee,#ddd);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));    
+	background-image: -webkit-linear-gradient(#eee, #ddd);
+	background-image: -o-linear-gradient(#eee, #ddd);
+	background-image: -ms-linear-gradient(#eee, #ddd);
+	background-image: linear-gradient(#eee, #ddd);
+	margin-top: -30px;
+	padding-top: 30px;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0; 		
+}
+
+#pricing-table .plan:nth-child(1) h3 {
+	-moz-border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;       
+}
+
+#pricing-table .plan:nth-child(5) h3 {
+	-moz-border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	border-radius: 0 5px 0 0;       
+}	
+
+#pricing-table h3 span {
+	display: block;
+	font: bold 25px/100px Georgia, Serif;
+	color: #777;
+	background: #fff;
+	border: 5px solid #fff;
+	height: 100px;
+	width: 100px;
+	margin: 10px auto -65px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	-moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	-webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+	box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+}
+
+/* --------------- */
+
+#pricing-table ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+#pricing-table li {
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
+
+/* --------------- */
+	
+#pricing-table .signup {
+	position: relative;
+	padding: 8px 20px;
+	margin: 20px 0 0 0;  
+	color: #fff;
+	font: bold 14px Arial, Helvetica;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;       
+	background-color: #72ce3f;
+	background-image: -moz-linear-gradient(#72ce3f, #62bc30);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#72ce3f), to(#62bc30));    
+	background-image: -webkit-linear-gradient(#72ce3f, #62bc30);
+	background-image: -o-linear-gradient(#72ce3f, #62bc30);
+	background-image: -ms-linear-gradient(#72ce3f, #62bc30);
+	background-image: linear-gradient(#72ce3f, #62bc30);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;     
+	text-shadow: 0 1px 0 rgba(0,0,0,.3);        
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
+}
+
+#pricing-table .signup:hover {
+	background-color: #62bc30;
+	background-image: -moz-linear-gradient(#62bc30, #72ce3f);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#62bc30), to(#72ce3f));      
+	background-image: -webkit-linear-gradient(#62bc30, #72ce3f);
+	background-image: -o-linear-gradient(#62bc30, #72ce3f);
+	background-image: -ms-linear-gradient(#62bc30, #72ce3f);
+	background-image: linear-gradient(#62bc30, #72ce3f); 
+}
+
+#pricing-table .signup:active, #pricing-table .signup:focus {
+	background: #62bc30;       
+	top: 2px;
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset; 
+}
+
+/* --------------- */
+
+.clear:before, .clear:after {
+  content:"";
+  display:table
+}
+
+.clear:after {
+  clear:both
+}
+
+.clear {
+  zoom:1
+
+
+}</style></head>
+
+<body>
+
+
+<div id="pricing-table" class="clear">
+    <div class="plan">
+        <h3>Hot Stone<span>$85</span></h3>
+        <a class="signup" href="contact.html">Reservation</a>
+                 
+        <ul>
+            <li><b>60 mins</b> $85</li>
+            <li><b>90 mins</b> $120</li>
+            <li><b>Function</b> Relax and Balance</li>
+            <li><p>The application of massage and the deep penetrating heat of smooth or rough hot stones leave your body relaxed and balanced.</p>	
+        </ul> 
+    </div>
+    <div class="plan">
+        <h3>Deep Tissue<span>$75</span></h3>
+        <a class="signup" href="contact.html">Reservation</a>        
+        <ul>
+            <li><b>60 mins</b> $75</li>
+            <li><b>90 mins</b> $115</li>
+            <li><b>Function</b> Recover</li>
+          <li><p>Deep Tissue Massage is used with clients recovering from sports, auto, or work injury to release muscle adhesions and reduce discomfort.</p></li>			
+        </ul>    
+    </div>
+    <div class="plan" id="most-popular">
+        <h3>Spork Premium<span>$65</span></h3>
+		<a class="signup" href="contact.html">Reservation</a>
+        <ul>
+            <li><b>60 mins</b> $65</li>
+            <li><b>90 mins</b> $110</li>
+            <li><b>Function</b> Relax entire body</li>
+          <li><p>This massage is for increasing the level of oxygen in the blood, decreasing muscle toxins, improving circulation and flexibility.</p></li>			
+        </ul>
+    </div>
+    <div class="plan">
+        <h3>Spork Basic<span>$55</span></h3>
+        <a class="signup" href="contact.html">Reservation</a>		
+        <ul>
+            <li><b>60 mins</b> $55</li>
+            <li><b>90 mins</b> $75</li>
+            <li><b>Function</b> Muscle relief</li>
+          <li><p>Basic Massage includes time for combination full body massage or focused relief of tension areas.</p></li>			
+        </ul>
+    </div>
+  
+    <div class="plan">
+        <h3>Facial<span>$50</span></h3>
+		<a class="signup" href="contact.html">Reservation</a>
+        <ul>
+            <li><b>60 mins</b> $50</li>
+            <li><b>90 mins </b> $70 </li>
+            <li><b>Function</b> Healthy skin </li>
+          <li><p> Our licensed aestheticians will customize your treatment so you enjoy a clean, bright complexion.</P></li>			
+        </ul>
+    </div>
+</div>
+
+<script>/* original post: http://www.red-team-design.com/css3-pricing-table *///@ sourceURL=pen.js
+</script>
+<script src='http://codepen.io/assets/editor/live/css_live_reload_init.js'></script>
+
+<div id="wrapper">
       <section id="primary">
         <img src="images/lotus_servicessidebar.jpg" alt="sidebar" class="sidebar"/>
         <h3>Every body deserves a massage</h3>
       </section> 
-     <section>
 
-      </section>
-     <footer>
+</div>
+
+
+<footer>
         <a href="http://twitter.com/"><img src="images/twitter.jpg" alt="Twitter logo" class="social-icon"></a>
         <a href="http://facebook.com/"><img src="images/facebook.jpg" alt="Facebook logo" class="social-icon"></a>
         <p>&copy; 2014 Spork Massage</p>
-      </footer>
-    </div>
-  </body>  
- </html>
+  	</footer>
+
+
+</body></html>
+
+	
