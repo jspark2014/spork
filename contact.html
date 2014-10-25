@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Spork Massage| Rejuvenate</title>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700|Dancing+Script:400,700|Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/master.css">
+  </head>
+  <body>
+    <header>
+        <a href="home.html" id="pageheading">
+          <div id="headerhome">
+          <h1>spork massage</h1>
+          <h2>a place to rejuvenate</h2>
+          </div>
+          <img src="images/logo.jpg" alt="logo" class="logo"/>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="menu.html">Service Menu</a></li>
+            <li><a href="contact.html" class="selected">Contact & Directions</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>  
+        </nav>
+    </header>
+    <div id="wrapper">
+     <section>
+        <p>Contact Information</p>
+         <ul>
+          <li>Lisa Henderson</li>
+          <li>email: lisahenderson@spork.com</li>    
+          <li>mailing address: 3926 N Michigan Ave, Portland OR, 97227</li>
+        </ul>
+      </section>
+
+      <div>Directions</div>
+     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+     </script>
+
+        <script>
+        function initialize()
+        {
+        var mapProp = {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+          mapTypeId:google.maps.MapTypeId.ROADMAP
+          };
+        var map=new google.maps.Map(document.getElementById("googleMap")
+          ,mapProp);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        </head>
+
+        <div id="googleMap" style="width:500px;height:380px;"></div>
+
+     <footer>
+        <a href="http://twitter.com/"><img src="images/twitter.jpg" alt="Twitter logo" class="social-icon"></a>
+        <a href="http://facebook.com/"><img src="images/facebook.jpg" alt="Facebook logo" class="social-icon"></a>
+        <p>&copy; 2014 Spork Massage</p>
+      </footer>
+    </div>
+  </body>  
+ </html>

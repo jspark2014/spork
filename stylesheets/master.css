@@ -139,7 +139,6 @@ footer {
 }
 
 
-
   
   /****************************************
   TWO COLUMN LAYOUT
@@ -154,7 +153,6 @@ footer {
     width: 70%;
     float: right;
   }
-
 
 /****************************************
 PAGES FROM HOME
@@ -180,3 +178,30 @@ PAGES FROM HOME
   color: white;
 }
   
+/*********************************
+PAGES FROM RESOURCES
+**********************************/
+
+.links {
+
+  color: #32CD32;
+  font-size: .5em;
+  font-family: arial;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.links li {
+
+  padding: 20px;
+
+
+}
+
+p.title {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px 0px;
+}
