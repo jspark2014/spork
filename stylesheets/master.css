@@ -45,6 +45,7 @@ header {
   height: 200px;
   width: 200px;
   margin: 20px 0 20px 20px;
+  border-radius: 40%;
 }
 
 
@@ -96,6 +97,17 @@ nav {
   background: #32CD32;
 }
 
+/*
+ nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+*/
+
 nav ul {
   list-style: none;
   margin: 0 2px;
@@ -138,7 +150,6 @@ footer {
 }
 
 
-
   
   /****************************************
   TWO COLUMN LAYOUT
@@ -154,7 +165,6 @@ footer {
     float: right;
   }
 
-
 /****************************************
 PAGES FROM HOME
 *****************************************/
@@ -169,6 +179,7 @@ PAGES FROM HOME
   float: left;
   margin: 2%;
   background-color: #32CD32;
+  border-radius: 20%;
 }
 
 #gallery li a p {
@@ -178,3 +189,30 @@ PAGES FROM HOME
   color: white;
 }
   
+/*********************************
+PAGES FROM RESOURCES
+**********************************/
+
+.links {
+
+  color: #32CD32;
+  font-size: .5em;
+  font-family: arial;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.links li {
+
+  padding: 20px;
+
+
+}
+
+p.title {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px 0px;
+}
