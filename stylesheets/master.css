@@ -97,6 +97,17 @@ nav {
   background: #32CD32;
 }
 
+/*
+ nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+*/
+
 nav ul {
   list-style: none;
   margin: 0 2px;
